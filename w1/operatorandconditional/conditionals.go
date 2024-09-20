@@ -55,6 +55,23 @@ func ifElseIfCondition(num int) {
 	}
 }
 
+// tempFunc is a temporary function to demonstrate the fallthrough keyword.
+// This function checks the status of a phone and its battery level, and prints
+// appropriate messages based on the conditions.
+func tempFunc() {
+	// Initialize phoneStatus as "off" and batteryRemaining as 5
+	if phoneStatus, batteryRemaining := "off", 5; phoneStatus == "on" {
+		// If phoneStatus is "on", print "Phone is on."
+		fmt.Println("Phone is on.")
+	} else if batteryRemaining <= 5 {
+		// If batteryRemaining is less than or equal to 5, print "Battery is low."
+		fmt.Println("Battery is low.")
+	} else {
+		// If none of the above conditions are met, print "Phone is off."
+		fmt.Println("Phone is off.")
+	}
+}
+
 // switchCase checks the value of the day variable.
 // If the value is "Monday", it prints "Today is Monday."
 // If the value is "Tuesday", it prints "Today is Tuesday."
@@ -181,6 +198,9 @@ func conditionals() {
 
 	fmt.Println("ifElseIfCondition num = 5 :")
 	ifElseIfCondition(5)
+
+	fmt.Println("Temporary function if phoneStatus is off and batteryRemaining is 5:")
+	tempFunc()
 
 	fmt.Println("switchCase day =", dayMonday, ":")
 	switchCase(dayMonday)

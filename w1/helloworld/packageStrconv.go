@@ -68,3 +68,31 @@ func formatBool() {
 	var str = strconv.FormatBool(b) // Formats the b variable as a string and assigns it to the str variable
 	fmt.Println(str)                // Prints the str variable to the console
 }
+
+// packageStrconv is the entry point for this snippet.
+func packageStrconv() {
+	fmt.Println("Convert string to integer:")
+	stringToInt() // Calls the stringToInt function
+
+	fmt.Println("Convert integer to string:")
+	intToString() // Calls the intToString function
+
+	fmt.Println("Parse integer from string:")
+	parseInteger() // Calls the parseInteger function
+
+	fmt.Println("Format integer as string:")
+	formatInteger() // Calls the formatInteger function
+
+	fmt.Println("Parse float from string:")
+	parseFloat() // Calls the parseFloat function
+
+	fmt.Println("Format float as string:")
+	formatFloat() // Calls the formatFloat function
+
+	fmt.Println("Parse bool from string:")
+	parseBool() // Calls the parseBool function
+
+	fmt.Println("Format bool as string:")
+	formatBool() // Calls the formatBool function
+
+}

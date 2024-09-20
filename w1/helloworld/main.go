@@ -73,35 +73,7 @@ func main() {
 	lenString() // Calls the lenString function
 	fmt.Println(breakLine)
 
-	fmt.Println("Print string to integer:")
-	stringToInt() // Calls the stringToInt function
-	fmt.Println(breakLine)
-
-	fmt.Println("Print integer to string:")
-	intToString() // Calls the intToString function
-	fmt.Println(breakLine)
-
-	fmt.Println("Print parse integer:")
-	parseInteger() // Calls the parseInteger function
-	fmt.Println(breakLine)
-
-	fmt.Println("Print format integer:")
-	formatInteger() // Calls the formatInteger function
-	fmt.Println(breakLine)
-
-	fmt.Println("Print parse float:")
-	parseFloat() // Calls the parseFloat function
-	fmt.Println(breakLine)
-
-	fmt.Println("Print format float:")
-	formatFloat() // Calls the formatFloat function
-	fmt.Println(breakLine)
-
-	fmt.Println("Print parse boolean:")
-	parseBool() // Calls the parseBool function
-	fmt.Println(breakLine)
-
-	fmt.Println("Print format boolean:")
-	formatBool() // Calls the formatBool function
+	fmt.Println("Print package strconv:")
+	packageStrconv() // Calls the packageStrconv function
 	fmt.Println(breakLine)
 }

@@ -20,4 +20,8 @@ func main() {
 	fmt.Println("Print conditional operator:")
 	conditionals() // Calls the conditionals function
 	fmt.Println(breakLine)
+
+	fmt.Println("Print arrays:")
+	Arrfunc() // Calls the Arrfunc function
+	fmt.Println(breakLine)
 }

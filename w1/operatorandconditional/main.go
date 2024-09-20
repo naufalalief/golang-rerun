@@ -12,4 +12,8 @@ func main() {
 	fmt.Println("Print comparison operator:")
 	comparisonOperator() // Calls the comparisonOperator function
 	fmt.Println(breakLine)
+
+	fmt.Println("Print logic operator:")
+	logicOperator() // Calls the logicOperator function
+	fmt.Println(breakLine)
 }

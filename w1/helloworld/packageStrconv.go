@@ -53,14 +53,6 @@ func formatFloat() {
 	fmt.Println(str)                                // Prints the str variable to the console
 }
 
-// booleanToString converts a boolean to a string using strconv.FormatBool.
-// strconv.FormatBool converts a boolean to a string and returns the result.
-func booleanToString() {
-	var b = true                    // Declares a variable named b with the value true
-	var str = strconv.FormatBool(b) // Converts the b variable to a string and assigns it to the str variable
-	fmt.Println(str)                // Prints the str variable to the console
-}
-
 // parseBool parses a boolean from a string using strconv.ParseBool.
 // strconv.ParseBool parses a boolean from a string and returns the result.
 func parseBool() {

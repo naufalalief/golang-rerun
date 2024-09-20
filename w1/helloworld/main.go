@@ -99,10 +99,6 @@ func main() {
 	formatFloat() // Calls the formatFloat function
 	fmt.Println(breakLine)
 
-	fmt.Println("Print boolean to string:")
-	booleanToString() // Calls the booleanToString function
-	fmt.Println(breakLine)
-
 	fmt.Println("Print parse boolean:")
 	parseBool() // Calls the parseBool function
 	fmt.Println(breakLine)

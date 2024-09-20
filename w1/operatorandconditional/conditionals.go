@@ -185,8 +185,8 @@ func conditionals() {
 	fmt.Println("switchCase day =", dayMonday, ":")
 	switchCase(dayMonday)
 
-	fmt.Println("switchCaseFallthrough day =", dayMonday, ":")
-	switchCaseFallthrough(dayMonday)
+	fmt.Println("switchCaseFallthrough day =", daySaturday, ":")
+	switchCaseFallthrough(daySaturday)
 
 	fmt.Println("nestedIfElseCondition num = 5 :")
 	nestedIfElseCondition(5)

@@ -54,4 +54,8 @@ func main() {
 	fmt.Println(("Print specific index of string:"))
 	findIndex() // Calls the findIndex function
 	fmt.Println(breakLine)
+
+	fmt.Println("Print replace string:")
+	replaceString() // Calls the replaceString function
+	fmt.Println(breakLine)
 }

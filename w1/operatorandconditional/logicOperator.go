@@ -33,12 +33,13 @@ func notOperator() {
 
 // logicOperator is the entry point for this snippet.
 func logicOperator() {
-	fmt.Println("andOperator:")
+	fmt.Println("andOperator a = true, b = false :")
 	andOperator()
 
-	fmt.Println("orOperator:")
+	fmt.Println("orOperator a = true, b = false :")
 	orOperator()
 
-	fmt.Println("notOperator:")
+	fmt.Println("notOperator a = true :")
 	notOperator()
+
 }

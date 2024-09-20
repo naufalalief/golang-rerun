@@ -2,9 +2,7 @@ package main
 
 import "fmt"
 
-const (
-	breakLine = "-------------------------"
-)
+const breakLine = "-------------------------"
 
 func main() {
 	fmt.Println("Print helloworld:")

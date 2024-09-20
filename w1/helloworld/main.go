@@ -50,4 +50,8 @@ func main() {
 	fmt.Println("Print conversion data type:")
 	conversion() // Calls the conversionDataType function
 	fmt.Println(breakLine)
+
+	fmt.Println(("Print specific index of string:"))
+	findIndex() // Calls the findIndex function
+	fmt.Println(breakLine)
 }

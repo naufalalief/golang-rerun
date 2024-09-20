@@ -58,4 +58,21 @@ func main() {
 	fmt.Println("Print replace string:")
 	replaceString() // Calls the replaceString function
 	fmt.Println(breakLine)
+
+	fmt.Println("Print repeat string:")
+	repeatString() // Calls the repeatString function
+	fmt.Println(breakLine)
+
+	fmt.Println("Print lower string:")
+	lowerString() // Calls the lowerString function
+	fmt.Println(breakLine)
+
+	fmt.Println("Print upper string:")
+	upperString() // Calls the upperString function
+	fmt.Println(breakLine)
+
+	fmt.Println("Print length of string:")
+	lenString() // Calls the lenString function
+	fmt.Println(breakLine)
+
 }

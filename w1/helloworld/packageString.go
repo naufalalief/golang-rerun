@@ -31,3 +31,33 @@ func replaceString() {
 
 	fmt.Println(result, result2, result3) // Prints the results to the console
 }
+
+// repeatString repeats a string a specified number of times using strings.Repeat.
+// strings.Repeat repeats a string a specified number of times and returns the result.
+func repeatString() {
+	var str = strings.Repeat("ni", 3) // Repeats the string "ni" three times, resulting in "ninini"
+	fmt.Println(str)                  // Prints the result to the console
+}
+
+// lowerString converts a string to lowercase using strings.ToLower.
+// strings.ToLower converts all characters in a string to lowercase and returns the result.
+func lowerString() {
+	var str = strings.ToLower("GOODBYE WORLD") // Converts the string "GOODBYE WORLD" to lowercase, resulting in "goodbye world"
+	fmt.Println(str)                           // Prints the result to the console
+}
+
+// upperString converts a string to uppercase using strings.ToUpper.
+// strings.ToUpper converts all characters in a string to uppercase and returns the result.
+func upperString() {
+	var str = strings.ToUpper("hello world") // Converts the string "hello world" to uppercase, resulting in "HELLO WORLD"
+	fmt.Println(str)                         // Prints the result to the console
+}
+
+// lenString finds the length of a string using len.
+// len returns the number of bytes in a string.
+func lenString() {
+	var str = "Hello, World!" // Declares a variable named str with the value "Hello, World!"
+	var length = len(str)     // Finds the length of the str variable
+
+	fmt.Println(length) // Prints the length to the console
+}

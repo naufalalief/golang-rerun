@@ -16,4 +16,8 @@ func main() {
 	fmt.Println("Print logic operator:")
 	logicOperator() // Calls the logicOperator function
 	fmt.Println(breakLine)
+
+	fmt.Println("Print conditional operator:")
+	conditionals() // Calls the conditionals function
+	fmt.Println(breakLine)
 }

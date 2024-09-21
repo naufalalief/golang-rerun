@@ -24,4 +24,8 @@ func main() {
 	fmt.Println("Print arrays:")
 	Arrfunc() // Calls the Arrfunc function
 	fmt.Println(breakLine)
+
+	fmt.Println("Print slices:")
+	Slicefunc() // Calls the Slicefunc function
+	fmt.Println(breakLine)
 }

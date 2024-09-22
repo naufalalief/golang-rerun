@@ -91,6 +91,24 @@ func sliceAppend() {
 
 }
 
+// sliceCopy is a function that demonstrates the use of the copy() function with slices
+func sliceCopy() {
+	// Initialize a slice 'Fruits' with 4 string elements
+	fruits := []string{"apple", "grape", "banana", "melon"}
+
+	// Define a slice 'newFruits' with 4 string elements
+	newFruits := []string{"orange", "kiwi", "mango", "papaya"}
+
+	// Copy the elements of 'newFruits' slice to the 'Fruits' slice
+	copiedFruits := copy(fruits, newFruits)
+
+	// Print the entire slices
+	fmt.Println("Slice Fruits:", fruits)
+	fmt.Println("Slice newFruits:", newFruits)
+	fmt.Println("Copied elements:", copiedFruits)
+
+}
+
 // Slicefunc is the entry point for this snippet
 func Slicefunc() {
 	fmt.Println("Slice:")
@@ -111,4 +129,6 @@ func Slicefunc() {
 	fmt.Println("Use of append() function with slices:")
 	sliceAppend()
 
+	fmt.Println("Use of copy() function with slices:")
+	sliceCopy()
 }

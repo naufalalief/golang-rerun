@@ -73,6 +73,24 @@ func sliceCap() {
 	fmt.Println("Capacity of slice:", cap(numbers))
 }
 
+// sliceAppend is a function that demonstrates the use of the append() function with slices
+func sliceAppend() {
+	// Define a array 'numbers' with 4 integer elements
+	numbers := []int{1, 2, 3, 4}
+	// Define a new slice 'newNumbers' from the 'numbers' array
+	newNumbers := numbers[0:3]
+
+	fmt.Println("Array Numbers:", numbers)
+	fmt.Println("Slice newNumbers:", newNumbers)
+
+	// Append a new element to the 'newNumbers' slice
+	newNumbers = append(newNumbers, 5)
+
+	// Print the updated 'newNumbers' slice
+	fmt.Println("Updated Slice newNumbers:", newNumbers)
+
+}
+
 // Slicefunc is the entry point for this snippet
 func Slicefunc() {
 	fmt.Println("Slice:")
@@ -89,5 +107,8 @@ func Slicefunc() {
 
 	fmt.Println("Use of cap() function with slices:")
 	sliceCap()
+
+	fmt.Println("Use of append() function with slices:")
+	sliceAppend()
 
 }

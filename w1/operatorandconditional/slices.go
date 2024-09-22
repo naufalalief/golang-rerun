@@ -58,6 +58,21 @@ func sliceLen() {
 	fmt.Println("Length of slice:", len(numbers))
 }
 
+// sliceCap is a function that demonstrates the use of the cap() function with slices
+func sliceCap() {
+	// Define a slice 'numbers' with 4 integer elements
+	numbers := []int{1, 2, 3, 4}
+
+	aNumbers := numbers[0:3]
+
+	// Print the capacity of the 'aNumbers' slice
+	fmt.Println("Capacity of aNumbers:", cap(aNumbers))
+	fmt.Println("Length of numbers:", len(aNumbers))
+
+	// Print the capacity of the 'numbers' slice
+	fmt.Println("Capacity of slice:", cap(numbers))
+}
+
 // Slicefunc is the entry point for this snippet
 func Slicefunc() {
 	fmt.Println("Slice:")
@@ -68,5 +83,11 @@ func Slicefunc() {
 
 	fmt.Println("Create a new slice from an existing array:")
 	newSlice()
+
+	fmt.Println("Use of len() function with slices:")
+	sliceLen()
+
+	fmt.Println("Use of cap() function with slices:")
+	sliceCap()
 
 }
